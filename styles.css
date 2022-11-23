@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: antiquewhite;
+}
+h1 {
+    background-color: bisque;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    font-size: 37px;
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+}
+
+/* label {
+    display: flex;
+    justify-content: center;
+    font-size: 17px;
+} */
+
+/* input {
+    display: block;
+    text-align: left;
+    width: 150px;
+    float: left;
+    clear: right;
+} */
+
+.precio {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.descuentos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.calcular-resultado {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 15px;
+}
+
+#calcular {
+    background-color: white;
+    border: none;
+    border-radius: 30px;
+    width: 150px;
+    height: 40px;
+}
+
+#calcular:hover {
+    box-shadow: 30px;
+    cursor: pointer;
+    background-color: whitesmoke;
+}
+
+#result {
+    font-size: 20px;
+    margin: 20px;
+}
